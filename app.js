@@ -9,4 +9,4 @@ const app = new Koa()
 app.use(userRouter.routes()).use(userRouter.allowedMethods())
 app.use(menusRouter.routes()).use(menusRouter.allowedMethods())
 
-app.listen(3002)
+app.listen(80)
