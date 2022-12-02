@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Koa = require('koa')
 const userRouter = require('./routes/users')
 const menusRouter = require('./routes/menus')
